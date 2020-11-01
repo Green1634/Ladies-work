@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        form {
+            border: solid;
+            margin-top: 0em;
+            border-radius: 1em;
+            text-align: justify;
+           
+        }
+        * {
+            background-color: #8C319C;
+            text-align: justify;
+            padding-left: 10px;
+            margin-top: 3px;
+        
+        }
+
+        label {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            padding-left: 10px;
+            margin-right: 2px;
+            margin-left: 2px;
+            display: inline block;
+            
+        }
+        input {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            padding-right: 10px;
+            margin-right: 1em;
+            margin-left: 2em;
+            background-color: white;
+            text-align: right;
+            
+        }
+
+        textarea {
+            border: black solid;
+            margin-left: 1em;
+            background-color: white;
+
+        }
+
+        #submit {
+            background-color: black;
+            text-align: center;
+            margin-left: 20em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        option {
+            background-color: white;
+            border-radius: 15px;
+            background: white;
+        }
+        }
+        #username {
+            padding-left: 0.5em;
+
+        }
+
+        #password { 
+            margin-top: 0.5em;
+            padding-left: 0.5em;
+
+        }
+
+        
+
+
+    </style>
+</head>
+<body>
+    <form>
+        
+            <label>Username</label>
+            <input id="username" type="text" name="username"> <br>
+            <label>Password</label>
+            <input  id="password" type="text" name="password"> <br>
+        
+        <!--radio button-->
+        <h1>Choose your gender</h1>
+        <input type="radio" name="gender">
+        <label> Female</label> <br>
+        <input type="radio" name="gender">
+        <label>Male</label>
+
+        <h3>Likes</h3>
+        <input type="checkbox">
+        <label>coding</label> <br>
+        <input type="checkbox">
+        <label>cooking</label> <br>
+        <input type="checkbox">
+        <label>reading</label> <br>
+        <input type="checkbox">
+        <label>surfing</label> <br>
+
+        <!--textarea with coloum and rows -->
+        <h3>Drop your comment</h3>
+
+        <textarea rows="15" cols="60">  </textarea> <br>
+
+        <!--selection tag with options-->
+        <label id="h3"><h3>Choice of food</h3></label>
+        <select name="food">
+            <option value="rice">Rice</option> 
+            <option value="fufu">fufu</option> 
+            <option value="moi-moi">moi-moi</option> 
+        </select> <br>
+
+        <input id="submit" type="submit">
+    </form>
+</body>
+</html>
